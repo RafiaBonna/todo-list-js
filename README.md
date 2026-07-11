@@ -3,7 +3,7 @@
 A cute, elegant, and interactive fantasy-themed Todo List application built with vanilla JavaScript. Designed as a royal diary, this app helps users manage their daily wishes, tasks, and royal dreams with a touch of magic.
 
 ## 🚀 Live Demo
-[✨ Open the Magical Diary✨](https://rafiabonna.github.io/todo-list-js/) 
+[✨ Open the Magical Diary ✨](https://rafiabonna.github.io/todo-list-js/) 
 ---
 
 ## ✨ Enchanting Features
