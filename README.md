@@ -3,8 +3,7 @@
 A simple, clean, and interactive Todo List application built with vanilla JavaScript. This project helps users manage their daily tasks efficiently by allowing them to add, mark as complete, and delete tasks.
 
 ## 🚀 Live Demo
-[Live Demo Link Here](https://your-username.github.io/your-repo-name/) *(Replace this with your GitHub Pages or Netlify link)*
-
+[Live Demo Link Here](https://your-username.github.io/your-repo-name/)
 ---
 
 ## ✨ Features
