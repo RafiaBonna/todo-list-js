@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Quicksand:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Soft Dreamy Pastel Gradient */
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe5ec 40%, #e8dbfc 100%);
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+}
+
+.todo-container {
+    background: rgba(255, 255, 255, 0.85);
+    /* Frosted glass effect */
+    backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 450px;
+    padding: 40px 30px;
+    border-radius: 30px;
+    /* Elegant Royal Gold Border */
+    border: 2px solid #f3d5b5;
+    /* Magical Pink Glow Shadow */
+    box-shadow: 0 15px 35px rgba(255, 182, 193, 0.4);
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.crown-icon {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    animation: float 3s ease-in-out infinite;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #ff4d6d;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: #a393bf;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+/* Input Box Area */
+.todo-input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 15px 20px;
+    border: 1.5px solid #ffccd5;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    outline: none;
+    color: #5c4d70;
+    background-color: #fff9fa;
+    transition: all 0.3s ease;
+}
+
+#todo-input:focus {
+    border-color: #ff758f;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 117, 143, 0.2);
+}
+
+/* Elegant Princess Button */
+#add-btn {
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #ff85a1, #ff4d6d);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 77, 109, 0.3);
+    transition: all 0.3s ease;
+}
+
+#add-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.5);
+}
+
+/* Tasks List */
+#todo-list {
+    list-style: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+#todo-list li {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    border-radius: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #ffb3c6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+}
+
+#todo-list li span {
+    color: #4a3f5a;
+    font-size: 0.95rem;
+}
+
+.delete-btn {
+    background: #fff0f3;
+    color: #ff4d6d;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #ff4d6d;
+    color: #fff;
+}
+
+/* Floating Crown Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
