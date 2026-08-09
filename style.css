@@ -149,3 +149,9 @@ header h1 {
     50% { transform: translateY(-8px); }
     100% { transform: translateY(0px); }
 }
+/* Styling for completed royal tasks */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-style: italic;
+}
